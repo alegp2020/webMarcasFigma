@@ -667,4 +667,194 @@ body {
 
 
 
+@media (max-width: 768px) {
 
+  .container-nav{
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .botones-nav{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .hero-grid {
+        flex-direction: column;
+    }
+
+    .hero-izq,
+    .hero-derecha {
+        width: 100%;
+    }
+
+    .hero-derecha h1 {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .hero-botones {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .probar,
+    .demo{
+    margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .grid-texease{
+        grid-template-columns: 1fr;
+    gap:40px;
+    }
+
+    .contenido-texease,
+    .img-derecha{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .contendido-texease h2{
+        width: 100%;
+        font-size: 32px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contendido-texease p{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .img-derecha img{
+        width: 100%;
+    }
+
+    .flex-quees{
+        display: flex;
+        flex-direction: column;
+         text-align: center;
+        justify-content: center;
+       
+    }
+
+    .beneficios-global{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .beneficios{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        gap: 40px;
+        margin-left: 11px;
+    }
+
+    .primero,
+    .segundo,
+    .tercero{
+        text-align: center;
+        justify-content: center;
+    }
+    .funciones{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        gap: 40px;
+        margin-left: 11px;
+    }
+    .funciones-p1,
+    .funciones-p2,
+    .funciones-p3{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .planes-flex {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .planes-contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+
+        .planes-contenedor h2,
+        .planes-contenedor p{
+        display: flex;
+        flex-direction: column;
+        margin: 40px 40px;
+
+    }
+
+
+
+    .plan-destacado,
+    .plan {
+        width: 80%;
+        text-align: center;
+        justify-content: center;
+        margin: 10px 11px;
+    }
+
+
+    .testimonios-flex {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .testimonio {
+        width: 80%;
+        text-align: center;
+        justify-content: center;
+        margin: 10px 11px;
+    }
+
+    .faq-global {
+        grid-template-columns: 1fr;
+    }
+
+    .faq-contenedor{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        gap: 20px;
+        margin-left: 11px;
+    }
+
+
+
+    .faq-hijo,
+    .faq-hijo summary,
+    .faq-contenido,
+    .faq-contenido p {
+        width: 90%;
+    }
+
+
+    .footer-contenido {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "gestion"
+            "contacto"
+            "legal";
+        text-align: center;
+    }
+
+}
