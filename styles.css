@@ -667,7 +667,7 @@ body {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 430px) {
 
   .container-nav{
     flex-direction: column;
@@ -680,7 +680,7 @@ body {
         gap: 10px;
     }
     .botones-nav{
-        width: 100%;
+        width: 60%;
         flex-direction: column;
     }
 
@@ -694,12 +694,19 @@ body {
     }
 
     .hero-derecha h1 {
-        width: 100%;
+        width: 70%;
         font-size: 32px;
     }
 
+    .hero-derecha p {
+    color: white;
+    font-size: 16px;
+    font-family: 'Inter';
+    width: 60%;
+    }
+
     .hero-botones {
-        width: 100%;
+        width: 60%;
         flex-direction: column;
     }
 
@@ -711,7 +718,7 @@ body {
 
     .grid-texease{
         grid-template-columns: 1fr;
-    gap:40px;
+        gap:40px;
     }
 
     .contenido-texease,
@@ -729,14 +736,27 @@ body {
     }
 
     .contendido-texease p{
-        width: 100%;
+        width: 60%;
         text-align: center;
         justify-content: center;
+        margin-left:80px;
     }
 
     .img-derecha img{
-        width: 100%;
+        width: 80%;
+        margin-left:40px;
     }
+    .flex-quees h2 {
+    font-size: 32px;
+    color: #F5F5F5;
+    font-family: 'Inter';
+    display: flex;
+    margin-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+    width:70%;
+    margin-left:60px;
+}
 
     .flex-quees{
         display: flex;
@@ -766,7 +786,21 @@ body {
     .tercero{
         text-align: center;
         justify-content: center;
+        margin-left:60px;
+        width:50%;
     }
+
+    .flex-funciones h2 {
+    font-size: 32px;
+    color: #0D111C;
+    font-family: 'Inter';
+    display: flex;
+    margin-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+    width:60%;
+    margin-left:80px;
+}
     .funciones{
         width: 100%;
         flex-direction: column;
@@ -781,7 +815,10 @@ body {
     .funciones-p3{
         text-align: center;
         justify-content: center;
+        margin-left:70px;
+        width:50%;
     }
+
 
     .planes-flex {
         flex-direction: column;
@@ -798,8 +835,20 @@ body {
         display: flex;
         flex-direction: column;
         margin: 40px 40px;
-
+        width:60%;
+        align-items:center;
+        margin-left:80px;
     }
+
+    .faq-contenedor h2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+    font-family: 'Poppins';
+    margin-right:50px;
+}
 
 
 
@@ -844,7 +893,8 @@ body {
     .faq-hijo summary,
     .faq-contenido,
     .faq-contenido p {
-        width: 90%;
+        width: 80%;
+        margin-right:60px;
     }
 
 
